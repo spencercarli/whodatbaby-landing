@@ -84,7 +84,7 @@ h2 {
 
 #app-name h1 {
 	font-size: 5.5em;
-	font-size: 5.5em;
+	font-size: 59px;
 	color: #ECECEC;
 	text-shadow: -1px 0 #B3B3B3, 0 1px #B3B3B3, 1px 0 #B3B3B3, 0 -1px #B3B3B3, #020763 0.03em 0.03em;
 	}
@@ -121,7 +121,39 @@ h2 {
 	padding-right: 5%;
 	font-size: 0.9em;
 	line-height: 1.3em;
+}
+
+.button {
+	margin-top: 34px;
+}
+
+.button a, .submit-button {
+	padding: 10px 26px;
+	background-color:#55B557;
+	text-decoration: none;
+	font-size: 30px;
+	color:white;
+	border-radius: 3px;
+	-webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.button a:hover,.submit-button:hover {
+	background-color:#48964A;
+}
+
+.align-center {
+	text-align:center;
+}
+
+@media screen and (max-width: 979px){
+	.button a {
+		font-size:20px;
 	}
+
+}
 	
 	
 	
